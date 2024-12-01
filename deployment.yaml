@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: gcr.io/YOUR_PROJECT_ID/flask-ci-cd-app:latest
+        image: gcr.io/ci-cd-test-443415/flask-ci-cd-app:latest
         ports:
         - containerPort: 5001
